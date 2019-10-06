@@ -87,7 +87,7 @@ ax1.scatter(x_coordinate, nor_mat[:,1], s=10, c='r', marker="o", label='LBGI')
 ax1.scatter(x_coordinate, nor_mat[:,2], s=10, c='y', marker="s", label='HBGI')
 ax1.scatter(x_coordinate, nor_mat[:,3], s=10, c='g', marker="o", label='TIR')
 ax1.scatter(x_coordinate, nor_mat[:,4], s=10, c='k', marker="o", label='CONGA')
-plt.ylabel("CONGA")
+plt.ylabel("Feature Values")
 plt.xlabel("Timestamp")
 plt.legend(loc='upper left');
 plt.show()
