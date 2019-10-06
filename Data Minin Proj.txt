@@ -1,0 +1,20 @@
+Data mining Project
+Types of Features(Don't take Mean and STD)(Take features other than these)
+1) Zero crossing
+2) FFT(Top 8)
+3) CGM Velocity
+4) Windowed Mean(1-10,5-15,15-25,....)
+5) Maximum excursion(Find Max, max insulin bolus)
+
+Prerequisites before feature extraction:
+Creating Polynomial fit
+Create Feature Vector
+
+Show Scatterplot for argument of a feature
+Normalize the features
+PCA
+function in python PCA
+get eigen vector and multiply top 5 eigen Vector to feature matrix, to get updated feature matrix
+show
+Argue for updated Features
+ -
